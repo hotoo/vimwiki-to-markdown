@@ -1,0 +1,30 @@
+{
+  "name": "vimwiki-to-markdown",
+  "version": "1.0.0",
+  "description": "Convert Vimwiki syntax to Markdown",
+  "main": "index.js",
+  "bin": {
+    "vimwiki2md": "./cli.js"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hotoo/vimwiki-to-markdown.git"
+  },
+  "keywords": [
+    "Vimwiki",
+    "Markdown",
+    "Convert"
+  ],
+  "author": "闲耘 <hotoo.cn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hotoo/vimwiki-to-markdown/issues"
+  },
+  "homepage": "https://github.com/hotoo/vimwiki-to-markdown",
+  "dependencies": {
+    "glob": "^7.0.3"
+  }
+}
